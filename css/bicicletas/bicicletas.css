@@ -1,0 +1,46 @@
+.fundo-escuro {
+  background: var(--cor-11);
+}
+
+.bicicleta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.bicicleta-texto {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.bicicleta-texto h2 {
+  grid-column: 1 / -1;
+  margin-bottom: 15px;
+}
+
+.bicicleta-texto p {
+  grid-column: 1 / -1;
+  margin-bottom: 30px;
+}
+
+.bicicleta-texto ul {
+  grid-column: 1;
+}
+
+.bicicleta-texto ul li {
+  grid-column-gap: 10px;
+  grid-row-gap: 20px;
+}
+
+.bicicleta-texto li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bicicleta-texto a {
+  align-content: end;
+}
