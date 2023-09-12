@@ -2,7 +2,7 @@
   background: linear-gradient(to right, var(--cor-0) 20%, var(--cor-11) 0%);
 }
 
-.bicicleta {
+.bicicletas {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
