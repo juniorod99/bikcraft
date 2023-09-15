@@ -61,12 +61,13 @@
 }
 
 .titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background: var(--cor-11);
 }
 
 .titulo {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p {
@@ -74,7 +75,7 @@
 }
 
 @media (max-width: 800px) {
-  .titulo {
+  .titulo-bg {
     padding-top: 40px;
     padding-bottom: 40px;
   }
